@@ -2,14 +2,14 @@
     "manifest_version" : 3, 
     "name" : "Pomodoro Pilot", 
     "version" : "1.0",
-    "description" : "Google chrome tool that can assure quality studying time", 
-    "action" : {
-        "default_popup" : "pomodoro-pilot.html",
-        "default_icon" : "eyecon.png"
-    },
     "permissions" : ["tabs", "favicon", "activeTab"],
     "background": {
       "service_worker": "background.js"
     },
-    "host_permissions": ["<all_urls>"]
+    "host_permissions": ["<all_urls>"],
+    "description" : "Google chrome tool that can assure quality studying time", 
+    "action" : {
+        "default_popup" : "pomodoro-pilot.html",
+        "default_icon" : "eyecon.png"
+    }
 }
