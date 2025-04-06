@@ -1,0 +1,86 @@
+body {
+    height: 150px; 
+    width: 290px; 
+    background-color: #6749ba; 
+    border-radius: 20px; 
+}
+
+button { 
+    border-color: lightgray;
+    border-style: solid; 
+    border-radius: 10px; 
+}
+
+button:active {
+    background-color: rgb(164, 151, 151); 
+}
+
+#inputdiv {
+    text-align: center; 
+}
+#header {
+    color: lightgray; 
+    font: "Times New Roman", bold; 
+    align-content: center; 
+    text-align: center; 
+}
+
+#startbutton { 
+    font-size: 20px; 
+    width: 125px; 
+    height: 30px; 
+    align-content: center; 
+    display: flex;  
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px; 
+}
+#timeslider { 
+    margin-bottom: 15px; 
+}
+#timelabel { 
+    font: 20px, "Times New Roman"; 
+    color: lightgray; 
+}
+
+.selectbutton {
+    width: 20px; 
+    height: 20px; 
+    flex: inline; 
+}
+
+#confirmbutton {
+    font-size: 20px; 
+    width: 60px; 
+    height: 30px;  
+    display: flex;  
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px; 
+}
+
+footer { 
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: 15px;  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    display: none; 
+}
+#infoimg {
+    width: 20px; 
+    height: 20px;
+}
+#backbutton { 
+    font: 12px; 
+    border-radius: 10px; 
+}
+#forwardbutton { 
+    font: 12px; 
+    border-radius: 10px; 
+}
